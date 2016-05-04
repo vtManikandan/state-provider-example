@@ -1,0 +1,27 @@
+{
+  "name": "sample project",
+  "authors": [
+    "vtManikandan <gmanikandan@vthink.co.in>"
+  ],
+  "description": "basic angular structure",
+  "main": "",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals"
+  ],
+  "license": "MIT",
+  "private": true,
+  "homepage": "",
+  "dependencies": {
+    "angular": "^1.5.2",
+    "underscore": "^1.8.3"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

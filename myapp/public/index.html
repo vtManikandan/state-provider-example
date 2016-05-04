@@ -1,0 +1,26 @@
+<html ng-app="todo">
+<head>
+    <style>
+      body{
+          width:100%; height: 100%;
+          padding: 0;
+          margin: 0;
+      }  
+      *{
+          box-sizing: border-box;
+      }
+    </style>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="bower_components/underscore/underscore-min.js"></script>
+
+<script src="app.module.js"></script>
+<script src="app.config.js"></script>
+<script src="components/login/login.module.js"></script>
+<script src="components/login/controllers/login.controller.js"></script>
+
+</head>  
+<body>
+    <div id="uiViewer" ui-view></div>
+</body>  
+</html>
